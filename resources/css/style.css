@@ -1,0 +1,274 @@
+html {
+  font-family: 'Droid Serif', serif;
+  font-size: 16px;
+}
+
+.long-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 1.5rem;
+  padding-top: 1.125rem;
+}
+
+.infoleft {
+  display: flex;
+  flex-direction: column;
+  margin: 0rem 0rem 0rem 1.5rem;
+  padding: 2rem 1.5rem;
+  border-right: 1px solid #2f4f4f;
+  width: 60%;
+}
+
+
+.inforight {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  margin: 0rem 0rem 0rem 0rem;
+  padding: 1rem 1rem;
+  width: 26.4rem;
+  height: 10.5rem;
+}
+
+h1 {
+  font-weight: bold;
+  color: #2f4f4f;
+}
+
+h2 {
+  color: #2f4f4f;
+}
+
+#mobile {
+  display: none;
+}
+
+/* Header */
+
+header {
+  height: 4rem;
+  background-color: #ffffff;
+}
+
+header div {
+  display: inline-flex;
+  align-items: center;
+}
+
+header h3 {
+  font-weight: bold;
+  font-size: 2rem;
+  color: #c0c0c0;
+}
+
+header b {
+  color: #000000;
+}
+
+nav li {
+  display: inline-block;
+  text-align: right;
+  font-size: 1.75rem;
+  margin-right: 1rem;
+}
+
+
+/* Banner */
+
+.banner {
+  display: flex;
+  align-items: center;
+  padding: 2rem 1.5rem;
+  background-color: #c0c0c0;
+  width: 100%;
+  }
+
+.banner img {
+  width: 100&;
+}
+
+.banner h1 {
+  font-size: 3.75rem;
+  padding: 2rem 1rem;
+}
+
+.banner h2 {
+  font-size: 2rem;
+  padding: 1.5rem 1rem;
+}
+
+.banner p {
+  background-color: #2f4f4f;
+  color: #ffffff;
+  font-size: 1.75rem;
+  text-align: center;
+  padding: 0.5rem 1rem;
+}
+
+
+/* Information */
+
+.information {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+
+.information .infoleft img {
+  width: 100%;
+}
+
+.information .infoleft {
+  text-align: left;
+}
+
+.information h1 {
+  font-size: 3.75rem;
+  padding: 1.5rem;
+}
+
+.information .inforight h2, h3, p {
+  padding: 0.5rem;
+}
+
+.information p {
+  color: #6495ed;
+}
+
+.infobox img {
+  width: 35%;
+  padding: 1rem;
+}
+
+
+/* Courses */
+
+.courses {
+  background-color: #c0c0c0;
+  width: 100%;
+
+}
+
+.courses h1 {
+  text-align: center;
+  padding: 2rem auto;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+
+.course-info {
+  display: flex;
+  justify-content: space-between;
+  align-content: flex-start;
+  padding: 1rem 1rem;
+}
+
+.course-box {
+  width: 30%;
+  margin: 2rem 2rem;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.course-box img {
+  width: 100%;
+  height: auto;
+}
+
+.course-box h2 {
+  font-weight: bold;
+  padding: 1rem 1rem;
+  font-size: 1.5rem;
+}
+
+.course-box h3 {
+  padding: 0.5rem auto;
+  font-size: 1.25rem;
+}
+
+.course-box p {
+  font-size: 1rem;
+  color: #191970;
+  padding: 1rem 1.5rem;
+}
+/* Thesis */
+
+.thesis .infoleft h2 {
+  font-size: 3.75rem;
+  padding: 2rem auto;
+  text-align: center;
+}
+
+.thesis-info {
+  display:flex;
+  justify-content: center;
+  padding: 2rem 1.5rem;
+  width: 100%;
+}
+
+video {
+  width: 100%;
+}
+
+.thesis .inforight h2 {
+  padding: 1.5rem;
+  font-size: font-size: 1.5rem;
+}
+
+.thesis img {
+  width: 35%;
+  height: auto;
+}
+
+/* Footer */
+
+footer {
+  border-top: 0.625rem #c0c0c0;
+  font-size: 1.75rem;
+  color: #c0c0c0;
+}
+
+footer p {
+  padding-left: 1.5rem;
+}
+
+footer li {
+  display: inline-block;
+  text-align: right;
+}
+
+/* Mobile Style */
+
+@media only screen and (max-width: 480px) {
+
+  .infoleft {
+    height: 11.25rem;
+  }
+
+
+  .mobile {
+    display: inline-flex;
+  }
+
+
+  .banner .infoleft {
+    display: none;
+  }
+
+  .information .infoleft {
+    display: none;
+  }
+
+
+
+
+
+  .thesis-info .inforight {
+    display: none;
+  }
+}
